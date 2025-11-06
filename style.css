@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+header {
+  background-color: #4caf50;
+  color: black;
+  padding: 5px 0;
+  align-items: center;
+  font-size: 20px;
+}
+
+.barra_navegacion {
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid black;
+  box-shadow: 0px 2px 0px 0px black;
+}
+
+.titulo {
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+}
+
+.color1 {
+  color: #009900;
+}
+.color2 {
+  color: #b2d5a3;
+}
+.color3 {
+  color: #8dc175;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.b1 {
+  background-color: #b6d7a8;
+  height: 60px;
+  width: 125px;
+  font-weight: bold;
+  margin-right: 10px;
+  box-shadow: 2px 2px 0px 0px black;
+}
+
+.b2 {
+  background-color: #6aa84f;
+  height: 60px;
+  width: 125px;
+  color: #ffffff;
+  box-shadow: 2px 2px 0px 0px black;
+}
+
+.s1 {
+  font-size: 40px;
+  margin-left: 200px;
+}
+
+.s2 {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.selector {
+  display: flex;
+}
+
+.opcion {
+  margin-left: 440px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 420px;
+}
+
+/* --- Tarjetas iguales --- */
+.cuadro-arbol,
+.cuadro-arbol2,
+.cuadro-arbol3,
+.cuadro-arbol4 {
+  background-color: #eeeeee;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+/* Imágenes */
+.c1,
+.c2,
+.c3,
+.c4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+}
+
+/* Botones */
+.boton-adoptar1,
+.boton-adoptar2,
+.boton-adoptar3,
+.boton-adoptar4 {
+  background-color: #6aa84f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px 0px black;
+}
+
+/* --- Contenedores de columnas --- */
+.m {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.contenido-izquierda,
+.contenido-derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background-color: #93c47d;
+  color: black;
+  padding: 5px 0;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  height: 250px;
+}
+.h3 {
+  color: #ffffff;
+  margin-left: 100px;
+  font-size: 50px;
+  margin-top: 10px;
+}
+.p1 {
+  margin-top: -20px;
+  margin-left: 100px;
+}
+.pie {
+  display: flex;
+  flex-direction: column;
+}
+.pie2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+}
+ul {
+  list-style: none;
+  column-count: 2;
+  column-gap: 70px;
+}
+.pie3 {
+  display: flex;
+  flex-direction: column; /* texto arriba */
+  align-items: flex-start; /* alinea todo al inicio */
+  margin-left: 70%; /* mueve a la derecha */
+  margin-top: -180px;
+  gap: 10px; /* espacio entre el texto y los inputs */
+}
+.a {
+  color: #f4f4f4;
+  font-size: 35px;
+  margin: 0;
+}
+li {
+  padding: 20px;
+}
+.correo {
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: #000000 3px solid;
+}
+.boton-enviar {
+  background-color: #008b07;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 2px 2px 0px 0px black;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+.form-suscripcion {
+  display: flex; /* pone el input y el botón en línea */
+  gap: 10px; /* espacio entre ambos */
+}
